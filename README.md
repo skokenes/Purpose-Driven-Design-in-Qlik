@@ -1,8 +1,8 @@
 # Purpose Driven Design in QlikView and Qlik Sense
 
-At the Qlik World Conference 2014, I gave a 45 minutes presentation on building dashboards and visualizations with purpose-driven design decisions in QlikView and Qlik Sense. I've uploaded my presentation slides as a PDF to this repository, as well as code samples for all of the Qlik Sense extensions and mashups demonstrated.
+At the Qlik World Conference 2014, I gave a presentation on building dashboards and visualizations with purpose-driven design decisions in QlikView and Qlik Sense. I've uploaded my presentation slides as a PDF to this repository, as well as code samples for all of the Qlik Sense extensions and mashups demonstrated.
 
-You can find live examples of the Sense material at the following locations:
+You can view live examples of the Sense materials as well:
 
   - [Strip Plot]
   - [Forecasting]
