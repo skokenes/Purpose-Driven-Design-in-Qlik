@@ -1,0 +1,23 @@
+.qv-object-updatingbar div.qv-object-content-container {
+
+}
+
+.qv-object-gridchart .axis text {
+  font: 14px sans-serif;
+}
+
+.qv-object-updatingbar .y.axis path {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.qv-object-updatingbar .x.axis path {
+  fill: none;
+  stroke: rgb(200,200,200);
+  shape-rendering: crispEdges;
+}
+
+.qv-object-updatingbar .updatingbar {
+	fill:steelblue;
+}

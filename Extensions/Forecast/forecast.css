@@ -1,0 +1,123 @@
+#container {
+    font-family: sans-serif;
+    //font-size: 22px;
+    //font-weight:300;
+    width:900px;
+    height:400px;
+    margin-top: 10px;
+    margin-left:30px;
+    display:inline-block;
+}
+
+.axis {
+    shape-rendering: crispEdges;
+}
+
+.x.axis path, .y.axis path {
+    fill:none;
+    stroke:#939393;
+}
+
+text.x.axis, .y.axis text, .x.axis text {
+    fill:#939393;
+
+}
+
+.axis line {
+    stroke: #939393;
+}
+
+.present_line {
+    fill:none;
+    stroke:#FF9000;
+    stroke-width:2px;
+}
+
+.forecast_area {
+    fill: #FF9000;
+    fill-opacity: .2;
+}
+
+.mid_line {
+    fill:none;
+    stroke: #FF9000;
+    stroke-width:2px;
+    stroke-dasharray:2,2;
+    /*stroke-opacity:.5;*/
+}
+
+#ytd_ann_line {
+    fill:none;
+    stroke:#939393;
+    stroke-width:1px;
+}
+
+#to_date {
+    fill:#FF9000;
+}
+
+.boundary_text {
+    font-size:10px;
+}
+
+#last_date {
+    stroke:#FF9000;
+    fill:white;
+    stroke-width:2px;
+    /*stroke-dasharray:2,2;*/
+}
+
+.resize circle {
+    fill: #EEEEEE;
+    stroke: #585858;
+    stroke-width: 1.5px;
+}
+
+.brush .extent {
+    fill-opacity: .8;
+    fill: #FEC67E;
+    shape-rendering: crispEdges;
+}
+
+.b_outline {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .3;
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
+.halo {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 8px;
+    stroke-linecap: round;
+}
+
+line.legend {
+    stroke-width:2px;
+    fill:none;
+    stroke:#FF9000;
+}
+
+line.legend.m {
+    stroke-dasharray:2,2;
+}
+
+circle.legend.td {
+    fill:#FF9000;
+}
+
+rect.legend.f {
+    fill:#FEC67E;
+}
+
+circle.legend.f {
+    stroke:#FF9000;
+    fill:white;
+    stroke-width:2px;
+}
+
+text.brush.label {
+    text-anchor:end;
+    font-size:16px;
+}

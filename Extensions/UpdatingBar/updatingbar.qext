@@ -1,0 +1,9 @@
+{
+	"name" : "Updating Bar Chart",
+	"description" : "A bar chart",
+	"icon" : "table",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "table",
+	"author": "Speros Kokenes"
+}

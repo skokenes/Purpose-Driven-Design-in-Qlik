@@ -1,0 +1,58 @@
+{
+    "name": "Strip_Plot",
+    "type": "mashup",
+    "appdata": {
+        "qDocName": "Strip Plot Example.qvf",
+        "qDocId": "Strip Plot Example.qvf"
+    },
+    "lists": [],
+    "cubes": [
+        {
+            "callback": "",
+            "rows": "500",
+            "dimensions": [
+                {
+                    "field": "Region",
+                    "showNull": false,
+                    "limit": "OTHER_OFF",
+                    "otherSortMode": "OTHER_SORT_DESCENDING",
+                    "otherCounted": 5,
+                    "otherLimitMode": "OTHER_GE_LIMIT",
+                    "$$hashKey": "038"
+                },
+                {
+                    "field": "District",
+                    "showNull": false,
+                    "limit": "OTHER_OFF",
+                    "otherSortMode": "OTHER_SORT_DESCENDING",
+                    "otherCounted": 5,
+                    "otherLimitMode": "OTHER_GE_LIMIT",
+                    "$$hashKey": "03B"
+                }
+            ],
+            "measures": [
+                {
+                    "def": "Avg([Rate 2013])",
+                    "label": "",
+                    "$$hashKey": "04J"
+                },
+                {
+                    "def": "Avg([Rate 2014])",
+                    "label": "",
+                    "$$hashKey": "056"
+                },
+                {
+                    "def": "sum([Bills 2013])",
+                    "label": "",
+                    "$$hashKey": "05T"
+                },
+                {
+                    "def": "Sum([Bills 2014])",
+                    "label": "",
+                    "$$hashKey": "06G"
+                }
+            ]
+        }
+    ],
+    "allowPosition": true
+}
